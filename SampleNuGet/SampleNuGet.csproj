@@ -14,7 +14,7 @@
     <PackageTags>sample, library</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageIcon>spider.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
