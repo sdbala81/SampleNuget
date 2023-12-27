@@ -27,6 +27,7 @@
             - Recommended dimensions: 128x128
             - Maximum size: 1MB
         -->
+        <None Include="consultation.png" Pack="true" PackagePath="" />
         <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
 
