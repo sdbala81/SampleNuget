@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNuGet", "SampleNuGet\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNuGet.Tests", "SampleNuGet.Tests\SampleNuGet.Tests.csproj", "{1B1CCDC8-5394-4DCF-8C24-1E33BCBFCD3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSerializer", "CustomSerializer\CustomSerializer.csproj", "{F5D557E8-9F86-4A0B-87A5-602086EB9CA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1B1CCDC8-5394-4DCF-8C24-1E33BCBFCD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B1CCDC8-5394-4DCF-8C24-1E33BCBFCD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B1CCDC8-5394-4DCF-8C24-1E33BCBFCD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D557E8-9F86-4A0B-87A5-602086EB9CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D557E8-9F86-4A0B-87A5-602086EB9CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D557E8-9F86-4A0B-87A5-602086EB9CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D557E8-9F86-4A0B-87A5-602086EB9CA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>QT.OBE.CustomSerializer</RootNamespace>
+        <AssemblyName>QT.OBE.CustomSerializer</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>QT.OBE.CustomSerializer</PackageId>
+        <EnablePackageValidation>true</EnablePackageValidation>
+
+        <Authors>Dhananjeyan Balaretnaraja</Authors>
+        <Description>A long description to explain the package</Description>
+        <PackageProjectUrl>https://www.meziantou.net</PackageProjectUrl>
+        <PackageTags>sample, library</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>consultation.png</PackageIcon>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!--
+            Add an icon.png next to the csproj:
+            - Supported format: png, jpg
+            - Recommended dimensions: 128x128
+            - Maximum size: 1MB
+        -->
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="MinVer" Version="5.0.0-beta.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>
