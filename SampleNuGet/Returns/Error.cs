@@ -1,5 +1,10 @@
-﻿namespace QT.OBE.SharedKernel.Returns;
+﻿namespace SampleNuGet.Returns;
 
+/// <summary>
+/// Error Class
+/// </summary>
+/// <param name="Code">Error Code</param>
+/// <param name="Description">Description</param>
 public record Error(string Code, string Description)
 {
     public static readonly Error None = new(string.Empty, string.Empty);

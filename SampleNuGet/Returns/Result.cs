@@ -1,7 +1,10 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace QT.OBE.SharedKernel.Returns;
+namespace SampleNuGet.Returns;
 
+/// <summary>
+/// The Main Generic Result Class
+/// </summary>
 public class Result
 {
     protected Result(bool isSuccess, Error error)
@@ -45,6 +48,10 @@ public class Result
 }
 
 
+/// <summary>
+/// Generic Result Class
+/// </summary>
+/// <typeparam name="TValue">Can take any type class</typeparam>
 public class Result<TValue> : Result
 {
     private readonly TValue? _value;
